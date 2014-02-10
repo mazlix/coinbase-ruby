@@ -214,7 +214,7 @@ module Coinbase
     end
 
     def merge_options options
-      options.merge!({api_key: @api_key})
+      options.merge!({access_token: @api_key})
     end
   end
 end
